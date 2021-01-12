@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <img src="/space-shuttle.png" alt="" />
+        <h1>Welcome</h1>
+        <p>You are 30 seconds away from earning your own money!</p>
+        <button class="btn">Login</button>
+      </div>
+      <div class="signup">
+        <div class="toggle_btns">
+          <button class="emp active">Employee</button>
+          <button class="hire">Hirer</button>
+        </div>
+        <div class="content">
+          <h1>Apply as a Employee</h1>
+        </div>
+        <div class="frm">
+          <form action="">
+            <input type="text" placeholder="First Name" />
+            <input type="email" placeholder="Your Email" />
+            <br />
+            <input type="text" placeholder="Last name" />
+            <input type="tel"  pattern="[0-9]{10}" placeholder="Your Phone" />
+            <br />
+            <input type="password" placeholder="Password" />
+            <select size="1">
+              <option>Please select your Security Question</option>
+              <option>X</option>
+              <option>Y</option>
+              <option>Z</option></select
+            ><br />
+            <input type="password" placeholder="Confirm password" />
+            <input type="text" placeholder="enter your answer" /> <br />
+            <input
+              type="radio"
+              id="male"
+              name="gender"
+              value="male"
+            />
+            <label for="male">Male</label>
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+            />
+            <label for="female">Female</label>
+            <button type="submit" class="btn">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
